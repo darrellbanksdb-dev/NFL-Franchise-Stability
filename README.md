@@ -79,4 +79,18 @@ Author
 Darrell Banks
 Data Analytics Portfolio Project
 
+# Franchise Stability vs Performance
 
+This quadrant chart compares team success with franchise stability.
+
+Teams in the **top-right quadrant** demonstrate both strong leadership continuity and strong performance.
+
+![NFL Stability Quadrant](outputs/nfl_stability_quadrant.png)
+
+# Franchise Stability vs Performance
+
+This quadrant chart compares team success with franchise stability.
+
+Teams in the **top-right quadrant** demonstrate both strong leadership continuity and strong performance.
+
+![NFL Stability Quadrant](outputs/nfl_stability_quadrant.png)
