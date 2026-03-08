@@ -80,4 +80,4 @@ Darrell Banks
 Data Analytics Portfolio Project
 # Example Visualization
 
-![Stability vs Wins](outputs/nfl_stability_vs_wins.png)
+[Stability vs Wins](outputs/nfl_stability_vs_wins.png)
