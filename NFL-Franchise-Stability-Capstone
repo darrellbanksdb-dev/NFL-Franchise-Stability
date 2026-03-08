@@ -1,10 +1,58 @@
-NFL-Franchise-Stability-Capstone/
-├── data/
+NFL-Franchise-Stability
+│
+├── README.md
+│
+├── data
 │   └── nfl_franchise_stability_2016_2025.csv
-├── scripts/
+│
+├── scripts
 │   └── nfl_stability_analysis.R
-├── outputs/
-│   ├── nfl_stability_vs_wins.png
+│
+├── outputs
+│   ├── stability_vs_wins.png
 │   ├── coach_tenure_vs_wins.png
 │   └── qb_tenure_vs_wins.png
-└── README.md
+│
+└── docs
+    └── project_summary.md
+# Key Visualization
+
+![Franchise Stability vs Wins](outputs/stability_vs_wins.png)
+# Results
+
+## Franchise Stability vs Wins
+
+![Franchise Stability vs Wins](outputs/stability_vs_wins.png)
+# Skills Demonstrated
+
+• Data cleaning  
+• Data aggregation  
+• Feature engineering  
+• Sports analytics  
+• Data visualization  
+• Correlation analysis  
+• Regression modeling  
+• Reproducible analytics workflows in R
+## Executive Summary
+
+This project analyzes whether franchise leadership stability — measured through head coach tenure and starting quarterback tenure — correlates with team success in the NFL.
+
+Using data from 2016–2025, a **Franchise Stability Index** was created and compared with team win totals.
+
+The analysis suggests that teams with longer-tenured leadership often exhibit more consistent performance.
+# How to Reproduce This Analysis
+
+1. Clone the repository
+2. Install required R packages
+3. Run the script:
+
+scripts/nfl_stability_analysis.R
+# Requirements
+
+R version 4.5+
+
+Packages used:
+• tidyverse
+• nflreadr
+• ggplot2
+Top 10 most stable franchises (2016–2025)
