@@ -80,4 +80,14 @@ Darrell Banks
 Data Analytics Portfolio Project
 # Example Visualization
 
-[Stability vs Wins](outputs/nfl_stability_vs_wins.png)
+p_stability <- ggplot(final_dataset, aes(x = stability_index, y = Win)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(
+    title = "Franchise Stability Index vs Wins",
+    x = "Stability Index (Coach Tenure + QB Tenure)",
+    y = "Wins"
+  ) +
+  theme_minimal()
+
+ggsave("nfl_stability_vs_wins.png", p_stability, width = 10, height = 6, dpi = 300)
