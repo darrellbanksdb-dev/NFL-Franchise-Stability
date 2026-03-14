@@ -1,0 +1,18 @@
+library(ggplot2)
+library(tidyverse)
+
+p_heatmap <- ggplot(final_dataset, aes(x = Season, y = reorder(Tm, stability_index, FUN = mean), fill = stability_index)) +
+  geom_tile(color = "white") +
+  labs(
+    title = "NFL Franchise Stability Heatmap (2016–2025)",
+    subtitle = "Higher values indicate greater coach + quarterback continuity",
+    x = "Season",
+    y = "Team",
+    fill = "Stability\nIndex"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+
+p_heatmap
